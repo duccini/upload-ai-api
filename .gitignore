@@ -16,7 +16,7 @@ dist-ssr
 .env
 
 # Audio file example
-.mp3
+*.mp3
 
 # Editor directories and files
 .vscode/*
