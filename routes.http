@@ -23,3 +23,15 @@ Content-Type: application/json
 {
   "prompt": "bun, javascript, node"
 }
+
+###
+
+# @name generate-ai-complete
+POST http://localhost:3330/generate
+Content-Type: application/json
+
+{
+  "videoId": "50240fcb-9446-4578-bbef-ecb0ae60e76a",
+  "temperature": 0.5,
+  "editTemplate": "Generate a succinct summary of the Transcript of the video provided below: '''{transcription}'''"
+}
